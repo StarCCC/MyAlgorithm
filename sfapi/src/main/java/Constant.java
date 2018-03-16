@@ -4,4 +4,5 @@
 public class Constant {
 
     public static String title = "0.退出 1.冒泡排序";
+
 }
