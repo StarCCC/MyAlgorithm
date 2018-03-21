@@ -1,5 +1,7 @@
 import Algorithm.Sort.BubbleSort;
 import Algorithm.Sort.DBubbleSort;
+import Algorithm.Sort.InsertionSort;
+import Algorithm.Sort.SelectionSort;
 
 import java.util.Scanner;
 
@@ -23,6 +25,12 @@ public class Main {
                     break;
                 case 2://定向冒泡排序
                     DBubbleSort.run();
+                    break;
+                case 3://选择排序
+                    SelectionSort.run();
+                    break;
+                case 4://插入排序
+                    InsertionSort.run();
                     break;
                 default:
                     System.out.println("异常");

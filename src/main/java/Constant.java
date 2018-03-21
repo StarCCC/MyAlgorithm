@@ -3,6 +3,6 @@
  */
 public class Constant {
 
-    public static String title = "0.退出 1.冒泡排序 2.定向冒泡排序";
+    public static String title = "0.退出 1.冒泡排序 2.定向冒泡排序 3.选择排序 4.插入排序";
 
 }
