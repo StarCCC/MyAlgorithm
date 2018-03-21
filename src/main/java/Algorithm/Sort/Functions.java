@@ -1,4 +1,4 @@
-package Algorithm;
+package Algorithm.Sort;
 
 /**
  * Created by liuyupeng@hey900.com on 2018/3/16.

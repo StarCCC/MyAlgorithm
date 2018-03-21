@@ -1,4 +1,5 @@
-import Algorithm.BubbleSort;
+import Algorithm.Sort.BubbleSort;
+import Algorithm.Sort.DBubbleSort;
 
 import java.util.Scanner;
 
@@ -20,7 +21,9 @@ public class Main {
                 case 1://冒泡排序
                     BubbleSort.run();
                     break;
-
+                case 2://定向冒泡排序
+                    DBubbleSort.run();
+                    break;
                 default:
                     System.out.println("异常");
             }
